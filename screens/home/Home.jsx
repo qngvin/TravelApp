@@ -6,6 +6,8 @@ import ReusableText from '../../components/Reusable/ReusableText';
 import styles from './home.style';
 import HeightSpacer from '../../components/Reusable/HeightSpacer';
 import Places from '../../components/Home/Places';
+import Recommendation from '../../components/Home/Recommendation';
+import BestHotels from '../../components/Home/BestHotels';
 
 const Home = ({navigation}) => {
   return (
@@ -31,6 +33,10 @@ const Home = ({navigation}) => {
         />
 
         <Places />
+        <HeightSpacer height={15} />
+        <Recommendation />
+        <HeightSpacer height={15} />
+        <BestHotels />
       </View>
     </SafeAreaView>
   );

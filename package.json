@@ -10,8 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@mdi/light-js": "^0.2.63",
-    "@mdi/react": "^1.6.1",
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.16",

@@ -5,8 +5,9 @@ const COLORS = {
   white: '#ffffff',
   blue: '#00A9FF',
   red: '#FF1E1E',
-  yelow: '#FFFF00',
+  yellow: '#FFC436',
   black: '#000000',
+  gray: 'gray',
 };
 const SIZES = {
   small: 12,
@@ -19,22 +20,22 @@ const SIZES = {
 };
 const FONTS = {
   small: {
-    fontFamily: 'YourSmallFontFamily',
+    fontFamily: '',
     fontSize: SIZES.small,
     fontWeight: '400',
   },
   medium: {
-    fontFamily: 'YourMediumFontFamily',
+    fontFamily: '',
     fontSize: SIZES.medium,
     fontWeight: '600',
   },
   large: {
-    fontFamily: 'YourLargeFontFamily',
+    fontFamily: '',
     fontSize: SIZES.large,
     fontWeight: '700',
   },
   xLarge: {
-    fontFamily: 'YourXLargeFontFamily',
+    fontFamily: '',
     fontSize: SIZES.xLarge,
     fontWeight: '800',
   },

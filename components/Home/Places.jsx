@@ -2,6 +2,7 @@ import {StyleSheet, Text, View, VirtualizedList} from 'react-native';
 import React from 'react';
 import HeightSpacer from '../Reusable/HeightSpacer';
 import {SIZES} from '../../constants/theme';
+import Country from '../Tiles/Country/Country';
 
 const Places = () => {
   const countries = [
@@ -26,6 +27,20 @@ const Places = () => {
       imageUrl: 'https://via.placeholder.com/600/24f355',
       region: 'Việt Nam',
     },
+    {
+      id: 4,
+      country: 'Việt Nam',
+      description: 'officia porro iure quia iusto qui ipsa ut modi',
+      imageUrl: 'https://via.placeholder.com/600/24f355',
+      region: 'Việt Nam',
+    },
+    {
+      id: 5,
+      country: 'Việt Nam',
+      description: 'officia porro iure quia iusto qui ipsa ut modi',
+      imageUrl: 'https://via.placeholder.com/600/24f355',
+      region: 'Việt Nam',
+    },
   ];
   return (
     <View>
@@ -39,7 +54,7 @@ const Places = () => {
         getItem={(data, index) => data[index]}
         renderItem={({item, index}) => (
           <View style={{marginRight: SIZES.medium}}>
-            <Text>{item.country}</Text>
+            <Country item={item} />
           </View>
         )}
       />
